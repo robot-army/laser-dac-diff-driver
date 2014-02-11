@@ -1,4 +1,4 @@
-update=Tue 11 Feb 2014 23:07:08 GMT
+update=Tue 11 Feb 2014 23:45:04 GMT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -89,3 +89,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=ad5689raruz
 LibName32=Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LibName33=op470
