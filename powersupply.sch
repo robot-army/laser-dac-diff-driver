@@ -481,4 +481,8 @@ Connection ~ 6100 4800
 Wire Wire Line
 	6100 3950 6100 3550
 Connection ~ 6100 3550
+Text Label 2950 4200 0    60   ~ 0
++Vout_unreg
+Text Label 2450 5150 0    60   ~ 0
+-Vout_unreg
 $EndSCHEMATC
