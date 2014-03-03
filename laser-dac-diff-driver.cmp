@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Fri 28 Feb 2014 00:20:13 GMT
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Sun 02 Mar 2014 23:27:23 GMT
 
 BeginCmp
 TimeStamp = /52F5B815;
@@ -148,6 +148,13 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
 EndCmp
 
 BeginCmp
+TimeStamp = /5313DDDF;
+Reference = P104;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F985DA;
 Reference = R101;
 ValeurCmp = R;
@@ -192,6 +199,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52FA17BC;
 Reference = R107;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5313E00D;
+Reference = R108;
 ValeurCmp = R;
 IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp

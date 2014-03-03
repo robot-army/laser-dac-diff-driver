@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/rlab/robotarmy/laser-dac-diff-driver/laser-dac-diff-driver.sch)
-    (date "Sat 01 Mar 2014 15:36:13 GMT")
+    (date "Sun 02 Mar 2014 23:44:48 GMT")
     (tool "eeschema (2014-02-24 BZR 4719)-product"))
   (components
     (comp (ref U101)
@@ -469,10 +469,10 @@
         (pin (num 5) (name Common) (type output))
         (pin (num 6) (name +Vout) (type passive)))))
   (libraries
-    (library (logical 74hct04)
-      (uri 74hct04.lib))
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
+    (library (logical 74hct04)
+      (uri 74hct04.lib))
     (library (logical linear)
       (uri /usr/local/share/kicad/library/linear.lib))
     (library (logical conn)
