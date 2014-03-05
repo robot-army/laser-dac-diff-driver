@@ -34,13 +34,13 @@ LIBS:ad5689raruz
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:op470
 LIBS:laser-dac-diff-driver-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date ""
+Date "5 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""

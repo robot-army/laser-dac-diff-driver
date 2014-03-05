@@ -34,13 +34,13 @@ LIBS:ad5689raruz
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:op470
 LIBS:laser-dac-diff-driver-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date ""
+Date "5 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -182,8 +182,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 2150 4600 2150
 Wire Wire Line
-	4600 2150 4600 3550
-Wire Wire Line
 	4600 2950 4800 2950
 Connection ~ 3900 3550
 Connection ~ 4600 2950
@@ -270,4 +268,19 @@ Out1+
 Connection ~ 7750 2750
 Wire Wire Line
 	5900 3650 8300 3650
+$Comp
+L R R205
+U 1 1 53170122
+P 4600 3300
+AR Path="/52F5483C/53170122" Ref="R205"  Part="1" 
+AR Path="/52F54BF7/53170122" Ref="R305"  Part="1" 
+F 0 "R305" V 4680 3300 40  0000 C CNN
+F 1 "10k" V 4607 3301 40  0000 C CNN
+F 2 "~" V 4530 3300 30  0000 C CNN
+F 3 "~" H 4600 3300 30  0000 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2150 4600 3050
 $EndSCHEMATC
