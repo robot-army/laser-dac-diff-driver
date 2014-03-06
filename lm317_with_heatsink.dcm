@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM317AEMP
+D LM317AEMP, 1A 35V Adjustable Linear Regulator, SOT-223
+K Adjustable Voltage Regulator 1A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317EMP
+D LM317EMP, 1A 35V Adjustable Linear Regulator, SOT-223
+K Adjustable Voltage Regulator 1A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+#End Doc Library

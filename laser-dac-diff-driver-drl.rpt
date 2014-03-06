@@ -1,0 +1,20 @@
+Drill report for /home/rlab/robotarmy/laser-dac-diff-driver/laser-dac-diff-driver.kicad_pcb
+Created on Thu 06 Mar 2014 00:59:16 GMT
+Drill report for plated through holes :
+T1  0.64mm  0.025"  (14 holes)
+T2  0.75mm  0.030"  (20 holes)
+T3  0.81mm  0.032"  (12 holes)
+T4  1.00mm  0.039"  (5 holes)
+T5  1.02mm  0.040"  (18 holes)
+T6  1.27mm  0.050"  (1 hole)
+T7  1.52mm  0.060"  (4 holes)
+T8  2.50mm  0.098"  (4 holes)
+
+Total plated holes count 78
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

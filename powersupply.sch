@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LM317_HS
 LIBS:74hct04
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ LIBS:ad5689raruz
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:op470
 LIBS:laser-dac-diff-driver-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -367,8 +368,6 @@ $EndComp
 Wire Wire Line
 	4400 2050 4400 2450
 Wire Wire Line
-	4800 1750 6400 1750
-Wire Wire Line
 	4900 2350 4900 2300
 Wire Wire Line
 	4400 2350 4900 2350
@@ -386,42 +385,40 @@ Connection ~ 3850 1750
 $Comp
 L C C402
 U 1 1 52F4E0BB
-P 5300 2350
-F 0 "C402" H 5300 2450 40  0000 L CNN
-F 1 "1u" H 5306 2265 40  0000 L CNN
-F 2 "" H 5338 2200 30  0000 C CNN
-F 3 "" H 5300 2350 60  0000 C CNN
-	1    5300 2350
+P 5650 2350
+F 0 "C402" H 5650 2450 40  0000 L CNN
+F 1 "1u" H 5656 2265 40  0000 L CNN
+F 2 "" H 5688 2200 30  0000 C CNN
+F 3 "" H 5650 2350 60  0000 C CNN
+	1    5650 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2550 5300 3000
+	5650 2550 5650 3000
 Wire Wire Line
-	4800 2850 4800 3000
+	4800 3000 4800 2850
 Wire Wire Line
-	5300 1750 5300 2150
-Connection ~ 4900 1750
+	5650 1750 5650 2150
 Wire Wire Line
 	4900 1750 4900 1800
 $Comp
 L C C403
 U 1 1 52F4E0C6
-P 5700 2350
-F 0 "C403" H 5700 2450 40  0000 L CNN
-F 1 "100n" H 5706 2265 40  0000 L CNN
-F 2 "" H 5738 2200 30  0000 C CNN
-F 3 "" H 5700 2350 60  0000 C CNN
-	1    5700 2350
+P 6050 2350
+F 0 "C403" H 6050 2450 40  0000 L CNN
+F 1 "100n" H 6056 2265 40  0000 L CNN
+F 2 "" H 6088 2200 30  0000 C CNN
+F 3 "" H 6050 2350 60  0000 C CNN
+	1    6050 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 3000 5700 2550
+	6050 3000 6050 2550
 Wire Wire Line
-	5700 1750 5700 2150
-Connection ~ 5300 1750
+	6050 1750 6050 2150
 Wire Wire Line
-	3750 3000 5700 3000
-Connection ~ 5300 3000
+	3750 3000 7000 3000
+Connection ~ 5650 3000
 Connection ~ 4800 3000
 Connection ~ 4400 3000
 Wire Wire Line
@@ -433,7 +430,7 @@ Wire Wire Line
 Connection ~ 3600 3550
 Wire Wire Line
 	3600 1750 4000 1750
-Text HLabel 6400 1750 2    60   Output ~ 0
+Text HLabel 7250 1750 2    60   Output ~ 0
 4.85V_Out
 Text HLabel 6450 3550 2    60   Output ~ 0
 +10.8V_Out
@@ -443,7 +440,7 @@ Text HLabel 6550 6000 2    60   Output ~ 0
 -10.8V_Out
 Connection ~ 5800 4800
 Connection ~ 5750 3550
-Connection ~ 5700 1750
+Connection ~ 6050 1750
 Wire Wire Line
 	5800 5550 5800 6000
 Connection ~ 5800 6000
@@ -485,4 +482,53 @@ Text Label 2950 4200 0    60   ~ 0
 +Vout_unreg
 Text Label 2450 5150 0    60   ~ 0
 -Vout_unreg
+$Comp
+L INDUCTOR L401
+U 1 1 5317D3ED
+P 5250 1750
+F 0 "L401" V 5200 1750 40  0000 C CNN
+F 1 "INDUCTOR" V 5350 1750 40  0000 C CNN
+F 2 "" H 5250 1750 60  0000 C CNN
+F 3 "" H 5250 1750 60  0000 C CNN
+	1    5250 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C415
+U 1 1 5317D3FF
+P 7000 2300
+F 0 "C415" H 7000 2400 40  0000 L CNN
+F 1 "100n" H 7006 2215 40  0000 L CNN
+F 2 "" H 7038 2150 30  0000 C CNN
+F 3 "" H 7000 2300 60  0000 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1750 7000 2100
+Wire Wire Line
+	7000 3000 7000 2500
+Connection ~ 6050 3000
+Wire Wire Line
+	4800 1750 4950 1750
+Wire Wire Line
+	5550 1750 7250 1750
+Connection ~ 7000 1750
+Connection ~ 5650 1750
+Connection ~ 4900 1750
+Wire Wire Line
+	4850 1750 4850 1850
+Wire Wire Line
+	4850 1850 4800 1850
+Connection ~ 4850 1750
+Wire Wire Line
+	4900 3550 4900 3650
+Wire Wire Line
+	4900 3650 4850 3650
+Connection ~ 4900 3550
+Wire Wire Line
+	4100 5900 4050 5900
+Wire Wire Line
+	4050 5900 4050 6000
+Connection ~ 4050 6000
 $EndSCHEMATC

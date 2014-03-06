@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Sun 02 Mar 2014 23:27:23 GMT
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Wed 05 Mar 2014 21:43:46 GMT
 
 BeginCmp
 TimeStamp = /52F5B815;
@@ -120,10 +120,24 @@ IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F4209D/5317D3FF;
+Reference = C415;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F4209D/52F42F52;
 Reference = IC401;
 ValeurCmp = DCDC-CONV_TRACO_TMH-XXXX_Dual_REVA_27MAR2011;
 IdModule  = DCDCs:DCDC-Conv_TRACO_TMH-xxxx_Dual_RevA_27Mar2011;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4209D/5317D3ED;
+Reference = L401;
+ValeurCmp = INDUCTOR;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
@@ -145,13 +159,6 @@ TimeStamp = /52F9A0A4;
 Reference = P103;
 ValeurCmp = CONN_6X2;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
-EndCmp
-
-BeginCmp
-TimeStamp = /5313DDDF;
-Reference = P104;
-ValeurCmp = CONN_1;
-IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
@@ -190,27 +197,6 @@ IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FA187B;
-Reference = R106;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FA17BC;
-Reference = R107;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5313E00D;
-Reference = R108;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /52F5483C/52F562DE;
 Reference = R201;
 ValeurCmp = 10k;
@@ -239,6 +225,13 @@ IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F5483C/53170122;
+Reference = R205;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F54BF7/52F562DE;
 Reference = R301;
 ValeurCmp = 10k;
@@ -263,6 +256,13 @@ BeginCmp
 TimeStamp = /52F54BF7/52F5648F;
 Reference = R304;
 ValeurCmp = 8k2;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F54BF7/53170122;
+Reference = R305;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 

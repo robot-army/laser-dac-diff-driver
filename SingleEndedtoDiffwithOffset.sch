@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LM317_HS
 LIBS:74hct04
 LIBS:power
 LIBS:device
@@ -34,11 +35,11 @@ LIBS:ad5689raruz
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:op470
 LIBS:laser-dac-diff-driver-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title ""
 Date "5 mar 2014"
 Rev ""
@@ -271,16 +272,18 @@ Wire Wire Line
 $Comp
 L R R205
 U 1 1 53170122
-P 4600 3300
+P 4600 3250
 AR Path="/52F5483C/53170122" Ref="R205"  Part="1" 
 AR Path="/52F54BF7/53170122" Ref="R305"  Part="1" 
-F 0 "R305" V 4680 3300 40  0000 C CNN
-F 1 "10k" V 4607 3301 40  0000 C CNN
-F 2 "~" V 4530 3300 30  0000 C CNN
-F 3 "~" H 4600 3300 30  0000 C CNN
-	1    4600 3300
+F 0 "R305" V 4680 3250 40  0000 C CNN
+F 1 "10k" V 4607 3251 40  0000 C CNN
+F 2 "~" V 4530 3250 30  0000 C CNN
+F 3 "~" H 4600 3250 30  0000 C CNN
+	1    4600 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 2150 4600 3050
+	4600 3550 4600 3500
+Wire Wire Line
+	4600 2150 4600 3000
 $EndSCHEMATC
